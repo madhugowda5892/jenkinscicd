@@ -5,9 +5,9 @@ pipeline {
       }
 
     stages {
-        stage('Hello') {
+        stage('first') {
             steps {
-                sh 'node --version'
+                sh 'ls -l'
             }
         }
     }
